@@ -59,7 +59,7 @@ Here my ```.classpath```
 /path/hadoop/mapreduce/hadoop-mapreduce-client-core-2.0.4-alpha.jar
 ```
 
-Once you set the right paths the rest it's very simple, you need run the following commands.
+Once you set the right paths the rest it's very simple, you need run the following command.
 
 ```
 rake build
