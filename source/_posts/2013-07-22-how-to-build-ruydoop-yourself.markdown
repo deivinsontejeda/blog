@@ -13,7 +13,7 @@ Recently I come working with [Hadoop](http://hadoop.apache.org/) and the better 
 I created an [issue](https://github.com/iconara/rubydoop/issues/9) and few days late received a [patch](https://github.com/iconara/rubydoop/issues/9#issuecomment-18968195) to fix it :D, but with a condition: I should build the .jar myself (and gem).
 
 
-I’ll expect that you have set up hadoop 2.0.x.
+I'll expect that you have set up hadoop 2.0.x.
 
 ### 1 - Clone repository
 
@@ -55,7 +55,8 @@ I needed to put two jars into ```.classpath``` to everything worked as expected.
 Here my ```.classpath```
 
 ```
-command
+/path/hadoop/common/hadoop-common-2.0.4-alpha.jar
+/path/hadoop/mapreduce/hadoop-mapreduce-client-core-2.0.4-alpha.jar
 ```
 
 Once you set the right paths the rest it's very simple, you need run the following commands.
@@ -73,8 +74,16 @@ gem build rubydoop.gemspec
 The above command will produce an output like:
 
 ```
-// ouput
+Successfully built RubyGem
+Name: rubydoop
+Version: 1.1.0.pre7
+File: rubydoop-1.1.0.pre7.gem
 ```
 
-Last but not least, I suggest change the gem version, by this way you can add a specific version in your ```Gemfile``` and avoid conflict with current release version.
+Finally, You need install your gem that recently has been built. Just put it in the working directory and run ```gem install rubydoop``` Rubygems picks ```.gem``` files in the working directory over gems on rubygems.org.
+
+
+Last but not least, I suggest change the gem version, by this way you can add a specific version in your ```Gemfile``` and avoid conflict with current release version. In fact, as you can see I changed Rubydoop version to ```1.1.0.pre7```.
+
+
 
