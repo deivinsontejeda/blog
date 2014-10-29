@@ -1,0 +1,9 @@
+[submodule ".themes/classic-martinb"]
+	path = .themes/classic-martinb
+	url = git://github.com/fapper/classic-martinb.git
+[submodule ".themes/foxslide"]
+	path = .themes/foxslide
+	url = https://github.com/sevenadrian/foxslide
+[submodule ".themes/MediumFox"]
+	path = .themes/MediumFox
+	url = https://github.com/sevenadrian/MediumFox
