@@ -6,7 +6,7 @@ comments: true
 categories: opinión concurrencia paralelismo
 ---
 
-Hace días los amigos de la [escuelaweb](http://escuelaweb.net) publicaron un buen articulo relacionado con los lenguages  *scripting* mas populares (o menos peores) del mercado en dicho [post](http://blog.escuelaweb.net/php-python-o-ruby-para-que-sirve-cada-uno/) se hacia una buena descripción de cada uno mostrando sus casos de uso, pros y contras, si aun no lo leen le recomiendo que lo hagan.
+Hace días los amigos de la [escuelaweb](http://escuelaweb.net) publicaron un buen articulo relacionado con los lenguages  *scripting* mas populares (o menos peores) del mercado en dicho [post](http://blog.escuelaweb.net/php-python-o-ruby-para-que-sirve-cada-uno/) se hacia una buena descripción de cada uno, mostrando sus casos de uso, pros y contras, si aun no lo leen le recomiendo que lo hagan.
 
 Sin embargo encontré referencia a un termino usado y que puede generar algo de confusión, entiendo también que el post fue creado para un publico menos tecnico y quizas entrar en detalles no era necesario. Acá trataré de aclarar el punto en termas bien práctico.
 
